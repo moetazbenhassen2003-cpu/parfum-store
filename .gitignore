@@ -1,0 +1,25 @@
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/.angular/
+backend/target/
+
+# Logs
+*.log
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.*
+!frontend/src/environments/environment.ts
+!frontend/src/environments/environment.prod.ts
+
+# Uploaded product images are runtime data.
+backend/uploads/
